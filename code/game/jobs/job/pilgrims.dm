@@ -111,11 +111,11 @@ Pilgrim Fate System
 				equip_to_slot_if_possible(new /obj/item/stack/thrones3/twenty, slot_in_backpack)
 				equip_to_slot_if_possible(new /obj/item/clothing/suit/armor/exile, slot_wear_suit)
 				equip_to_slot_if_possible(new /obj/item/melee/sword/machete/chopper/heavy/slayer, slot_in_backpack)
-				
+
 			else if(prob(15))
 				to_chat(U,"<span class='danger'><b><font size=4>THE MASTER</font></b></span>")
 				to_chat(U,"<span class='goodmood'><b><font size=3>You are the master of the sewer, ruler of sin, master of your own kingdom. Embrace the dark and grow evil in the deep dark. </font></b></span>")
-				U.add_stats(rand(16,19), rand(16,19), rand(19,21), rand (14,16)) 
+				U.add_stats(rand(16,19), rand(16,19), rand(19,21), rand (14,16))
 				U.add_skills(rand(5,8),rand(5,6),rand(5,6),rand(2,6),rand(5,6))
 				equip_to_slot_if_possible(new /obj/item/stack/thrones3/twenty, slot_in_backpack)
 				equip_to_slot_if_possible(new /obj/item/clothing/suit/armor/scum2, slot_wear_suit)
@@ -147,9 +147,9 @@ Pilgrim Fate System
 			else // Add a fate that is high chance, you are a target of a bounty and give them clothing that cannot be removed which is a criminal marker. Criminal Barcode. Penitent Markings. Penitent Tattoo.
 				to_chat(U,"<span class='danger'><b><font size=4>THE TRIBAL</font></b></span>")
 				U.add_stats(rand(14,17), rand(14,17), rand(12,18), rand (12,14))
-				equip_to_slot_if_possible(new /obj/item/stack/thrones3/twenty, slot_in_backpack) 
-				equip_to_slot_if_possible(new /obj/item/stack/thrones3/twenty, slot_in_backpack) 
-				equip_to_slot_if_possible(new /obj/item/melee/trench_axe/bspear/hunter, slot_in_backpack) 
+				equip_to_slot_if_possible(new /obj/item/stack/thrones3/twenty, slot_in_backpack)
+				equip_to_slot_if_possible(new /obj/item/stack/thrones3/twenty, slot_in_backpack)
+				equip_to_slot_if_possible(new /obj/item/melee/trench_axe/bspear/hunter, slot_in_backpack)
 				equip_to_slot_if_possible(new /obj/item/clothing/suit/armor/leather, slot_wear_suit)
 				to_chat(U,"<span class='goodmood'><b><font size=3>You are a local hunter and tribal from one of the many wandering tribes of Messina, you've only recently learned of Low Gothic and are adjusting to imperial rule.. </font></b></span>")
 		if("Nomad")
@@ -159,11 +159,11 @@ Pilgrim Fate System
 			equip_to_slot_if_possible(new /obj/item/clothing/head/ushanka2, slot_in_backpack)
 			equip_to_slot_if_possible(new /obj/item/device/radio/headset/headset_service, slot_in_backpack)
 			equip_to_slot_if_possible(new /obj/item/storage/backpack/satchel/warfare, slot_back)
-			equip_to_slot_if_possible(new /obj/item/device/flashlight/lantern, slot_in_backpack) 
+			equip_to_slot_if_possible(new /obj/item/device/flashlight/lantern, slot_in_backpack)
 			equip_to_slot_if_possible(new /obj/item/card/id/pilgrim/penitent, slot_wear_id)
-			equip_to_slot_if_possible(new /obj/item/storage/belt/stalker, slot_in_backpack) 
-			//new /obj/item/clothing/head/pillbox, slot_in_backpack) 
-			//new /obj/item/clothing/suit/chokha, slot_in_backpack) 
+			equip_to_slot_if_possible(new /obj/item/storage/belt/stalker, slot_in_backpack)
+			//new /obj/item/clothing/head/pillbox, slot_in_backpack)
+			//new /obj/item/clothing/suit/chokha, slot_in_backpack)
 			U.verbs -= list(/mob/living/carbon/human/proc/penitentclass,)
 			U.stat = CONSCIOUS
 			U.sleeping = 0
@@ -219,9 +219,9 @@ Pilgrim Fate System
 				equip_to_slot_if_possible(new /obj/item/clothing/head/scum, slot_head)
 				equip_to_slot_if_possible(new /obj/item/storage/fancy/cigarettes/dromedaryco, slot_in_backpack)
 				equip_to_slot_if_possible(new /obj/item/storage/fancy/cigarettes/dromedaryco, slot_in_backpack)
-				equip_to_slot_if_possible(new /obj/item/storage/pill_bottle/happy, slot_in_backpack) 
-				equip_to_slot_if_possible(new /obj/item/storage/pill_bottle/happy, slot_in_backpack) 
-				equip_to_slot_if_possible(new /obj/item/storage/pill_bottle/zoom, slot_in_backpack) 
+				equip_to_slot_if_possible(new /obj/item/storage/pill_bottle/happy, slot_in_backpack)
+				equip_to_slot_if_possible(new /obj/item/storage/pill_bottle/happy, slot_in_backpack)
+				equip_to_slot_if_possible(new /obj/item/storage/pill_bottle/zoom, slot_in_backpack)
 				equip_to_slot_if_possible(new /obj/item/stack/thrones/five, slot_in_backpack)
 				equip_to_slot_if_possible(new /obj/item/device/flashlight/lantern, slot_in_backpack)
 				equip_to_slot_if_possible(new /obj/item/reagent_containers/food/snacks/threebread, slot_in_backpack)
@@ -249,7 +249,7 @@ Pilgrim Fate System
 			U.add_skills(rand(7,10),rand(8,10),rand(3,6),rand(2,4),rand(2,6)) //melee, ranged, med, eng, surgery
 			equip_to_slot_if_possible(new /obj/item/storage/backpack/satchel/warfare, slot_back)
 			equip_to_slot_if_possible(new /obj/item/clothing/under/rank/victorian, slot_w_uniform)
-			equip_to_slot_if_possible(new /obj/item/device/flashlight/lantern, slot_in_backpack) 
+			equip_to_slot_if_possible(new /obj/item/device/flashlight/lantern, slot_in_backpack)
 			equip_to_slot_if_possible(new /obj/item/clothing/shoes/jackboots/pilgrim_boots, slot_shoes)
 			equip_to_slot_if_possible(new /obj/item/clothing/accessory/holster/hip, slot_in_backpack)
 			equip_to_slot_if_possible(new /obj/item/gun/energy/las/laspistol, slot_in_backpack)
@@ -272,7 +272,7 @@ Pilgrim Fate System
 			equip_to_slot_if_possible(new /obj/item/storage/backpack/satchel/warfare, slot_back)
 			equip_to_slot_if_possible(new /obj/item/clothing/under/rank/victorian, slot_w_uniform)
 			equip_to_slot_if_possible(new /obj/item/device/radio/headset/headset_service, slot_in_backpack)
-			equip_to_slot_if_possible(new /obj/item/device/flashlight/lantern, slot_in_backpack) 
+			equip_to_slot_if_possible(new /obj/item/device/flashlight/lantern, slot_in_backpack)
 			equip_to_slot_if_possible(new /obj/item/clothing/shoes/jackboots/pilgrim_boots, slot_shoes)
 			equip_to_slot_if_possible(new /obj/item/card/id/pilgrim/penitent, slot_wear_id)
 			U.verbs -= list(/mob/living/carbon/human/proc/penitentclass,)
@@ -380,7 +380,7 @@ Pilgrim Fate System
 			if(prob(10))
 				to_chat(U,"<span class='danger'><b><font size=4>THE VILLAIN</font></b></span>")
 				to_chat(U,"<span class='goodmood'>You are a villain of Messina and your objective is the spread of fear -- the dead cannot feel terror so keep them alive if you can. Torture and torment -- but never allow an end to their suffering.</font></b></span>")
-				U.add_stats(rand(14,15), rand(18,19), rand(18,21), rand (16,17)) 
+				U.add_stats(rand(14,15), rand(18,19), rand(18,21), rand (16,17))
 				U.add_skills(rand(7,10),rand(7,9),rand(7,8),rand(3,4),rand(7,8)) //melee, ranged, med, eng, surgery
 				equip_to_slot_if_possible(new /obj/item/clothing/under/det/black, slot_w_uniform)
 				equip_to_slot_if_possible(new /obj/item/melee/sword/skinning_knife)
@@ -405,7 +405,7 @@ Pilgrim Fate System
 			else if(prob(25))
 				to_chat(U,"<span class='danger'><b><font size=4>THE THIEF</font></b></span>")
 				to_chat(U,"<span class='goodmood'>You are a cunning thief and criminal, work alongside the Gangers to rake in the ultimate score.((Your clothes are chameleon items and can be turned into any disguise you desire))</font></b></span>")
-				U.add_stats(rand(14,16), rand(14,16), rand(12,15), rand (15,17)) 
+				U.add_stats(rand(14,16), rand(14,16), rand(12,15), rand (15,17))
 				equip_to_slot_if_possible(new /obj/item/gun/projectile/talon/renegade, slot_in_backpack)
 				if(prob(50))
 					equip_to_slot_if_possible(new /obj/item/device/batterer, slot_in_backpack)
@@ -422,7 +422,7 @@ Pilgrim Fate System
 			else
 				to_chat(U,"<span class='danger'><b><font size=4>THE INVESTIGATOR</font></b></span>")
 				to_chat(U,"<span class='goodmood'>A private investigator working on behalf of the denizens of Messina, here you ply your trade and rub up against the horrors of imperial life. Every story, every death and tragedy -- decaying your soul into dust.</font></b></span>")
-				U.add_stats(rand(14,16), rand(14,16), rand(12,15), rand (15,17)) 
+				U.add_stats(rand(14,16), rand(14,16), rand(12,15), rand (15,17))
 				equip_to_slot_if_possible(new /obj/item/gun/projectile/revolver/messina, slot_in_backpack)
 				equip_to_slot_if_possible(new /obj/item/ammo_magazine/a357/ms, slot_in_backpack)
 				equip_to_slot_if_possible(new /obj/item/ammo_magazine/a357/ms, slot_in_backpack)
@@ -465,7 +465,7 @@ Pilgrim Fate System
 			equip_to_slot_if_possible(new /obj/item/storage/backpack/satchel/warfare, slot_back)
 			equip_to_slot_if_possible(new /obj/item/clothing/under/rank/victorian, slot_w_uniform)
 			equip_to_slot_if_possible(new /obj/item/device/radio/headset/red_team, slot_in_backpack)
-			equip_to_slot_if_possible(new /obj/item/device/flashlight/lantern, slot_in_backpack) 
+			equip_to_slot_if_possible(new /obj/item/device/flashlight/lantern, slot_in_backpack)
 			equip_to_slot_if_possible(new /obj/item/clothing/shoes/jackboots/noble, slot_in_backpack)
 			equip_to_slot_if_possible(new /obj/item/card/id/key/grand/monastary, slot_wear_id)
 			equip_to_slot_if_possible(new /obj/item/stack/thrones/five, slot_in_backpack)
@@ -546,9 +546,9 @@ Pilgrim Fate System
 				to_chat(U,"<span class='goodmood'>Guided by your lust for thrones you smelled opportunity on this newly founded world. You have connectoins to the local gangs and trade guilds, find allies to further your interests in Messina.</font></b></span>")
 				U.add_stats(rand(14,15), rand(14,15), rand(15,17), rand (15,16))
 				equip_to_slot_if_possible(new /obj/item/clothing/suit/armor/vest/leather/tailcoat, slot_wear_suit)
-				equip_to_slot_if_possible(new /obj/item/stack/thrones/five, slot_in_backpack) 
-				equip_to_slot_if_possible(new /obj/item/stack/thrones2/ten, slot_in_backpack) 
-				equip_to_slot_if_possible(new /obj/item/stack/thrones3/twenty, slot_in_backpack) 
+				equip_to_slot_if_possible(new /obj/item/stack/thrones/five, slot_in_backpack)
+				equip_to_slot_if_possible(new /obj/item/stack/thrones2/ten, slot_in_backpack)
+				equip_to_slot_if_possible(new /obj/item/stack/thrones3/twenty, slot_in_backpack)
 				equip_to_slot_if_possible(new /obj/item/paper/administratum/weapon4, slot_in_backpack)
 				equip_to_slot_if_possible(new /obj/item/paper/administratum/theta, slot_in_backpack)
 				equip_to_slot_if_possible(new /obj/item/pen, slot_in_backpack)
@@ -563,8 +563,8 @@ Pilgrim Fate System
 				to_chat(U,"<span class='danger'><b><font size=4>THE BARD</font></b></span>")
 				to_chat(U,"<span class='goodmood'>A wandering bard you find yourself moving from tavern to tavern entertaining the masses for a few thrones at a time. This planet will surely be no different.</font></b></span>")
 				U.add_stats(rand(15,16), rand(17,18), rand(14,16), rand (12,16)) //
-				equip_to_slot_if_possible(new /obj/item/stack/thrones/five, slot_in_backpack) 
-				equip_to_slot_if_possible(new /obj/item/stack/thrones2/ten, slot_in_backpack) 
+				equip_to_slot_if_possible(new /obj/item/stack/thrones/five, slot_in_backpack)
+				equip_to_slot_if_possible(new /obj/item/stack/thrones2/ten, slot_in_backpack)
 				equip_to_slot_if_possible(new /obj/item/stack/thrones3/twenty, slot_in_backpack)
 				equip_to_slot_if_possible(new /obj/item/clothing/suit/musician, slot_wear_suit)
 				equip_to_slot_if_possible(new /obj/item/clothing/head/musichat, slot_head)
@@ -574,7 +574,7 @@ Pilgrim Fate System
 				equip_to_slot_if_possible(new /obj/item/pen, slot_in_backpack)
 				equip_to_slot_if_possible(new /obj/item/reagent_containers/food/snacks/warfare/rat, slot_in_backpack)
 		if("Fate Touched")
-			U.add_stats(rand(16,17), rand(15,17), rand(10,16), rand (12,16)) 
+			U.add_stats(rand(16,17), rand(15,17), rand(10,16), rand (12,16))
 			U.add_skills(rand(2,7),rand(5,7),rand(1,6),rand(1,6),rand(1,6)) //melee, ranged, med, eng, surgery
 			equip_to_slot_if_possible(new /obj/item/clothing/under/rank/chaplain, slot_w_uniform)
 			equip_to_slot_if_possible(new /obj/item/storage/backpack/satchel/warfare, slot_back)
@@ -604,7 +604,7 @@ Pilgrim Fate System
 				to_chat(U,"<span class='goodmood'>Banish the heretic and redeem this world.</font></b></span>")
 				U.add_stats(rand(14,15), rand(14,15), rand(15,17), rand (15,16))
 				equip_to_slot_if_possible(new /obj/item/clothing/suit/armor/knighthosp, slot_wear_suit)
-				equip_to_slot_if_possible(new /obj/item/melee/chain/inqcs, slot_in_backpack) 
+				equip_to_slot_if_possible(new /obj/item/melee/chain/inqcs, slot_in_backpack)
 				equip_to_slot_if_possible(new /obj/item/clothing/head/helmet/hauberk, slot_head)
 				equip_to_slot_if_possible(new /obj/item/reagent_containers/food/snacks/warfare/rat, slot_in_backpack)
 				equip_to_slot_if_possible(new /obj/item/device/radio/headset/headset_sci, slot_in_backpack)
@@ -688,7 +688,7 @@ Pilgrim Fate System
 		..()
 		H.get_idcard()?.access = list(225,247,access_village)
 		H.fully_replace_character_name("[current_name] Vane")
-		H.add_stats(rand(14,17), rand(14,17), rand(14,17), rand(12,16)) 
+		H.add_stats(rand(14,17), rand(14,17), rand(14,17), rand(12,16))
 		H.add_skills(rand(7,11),rand(7,11),rand(2,8),6,rand(2,8)) //melee, ranged, med, eng, surgery
 		H.warfare_language_shit(LANGUAGE_LOW_GOTHIC)
 		H.adjustStaminaLoss(-INFINITY)
@@ -1007,13 +1007,13 @@ Pilgrim Fate System
 		)
 
 /datum/job/gangboy
-	title = "Tavern Ganger"
+	title = "Ganger"
 	department_flag = PIL
 	social_class = SOCIAL_CLASS_MED //better off than your average gross pilgrim
-	total_positions = 2
-	spawn_positions = 2
+	total_positions = 4
+	spawn_positions = 4
 	open_when_dead = 0
-	supervisors = "The Tavern Keeper and House Goliath"
+	supervisors = "The Underhive gang member, who lives by robberies and shootouts."
 	selection_color = "#530606"
 	access = list(access_village, access_ganger, access_bar)
 	outfit_type = /decl/hierarchy/outfit/job/ganger
@@ -1062,13 +1062,13 @@ Pilgrim Fate System
 			U.add_skills(rand(8,10),rand(5,6),rand(1,3),rand(2,6),rand(1,2)) //melee, ranged, med, eng, surgery
 			equip_to_slot_if_possible(new /obj/item/clothing/under/rank/victorian, slot_w_uniform)
 			equip_to_slot_if_possible(new /obj/item/clothing/shoes/jackboots/pilgrim_boots, slot_shoes)
-			equip_to_slot_if_possible(new /obj/item/clothing/suit/armor/goliathplate, slot_in_backpack) 
-			equip_to_slot_if_possible(new /obj/item/clothing/head/helmet/gangerhelm, slot_in_backpack) 
-			equip_to_slot_if_possible(new /obj/item/device/radio/headset/ert, slot_in_backpack) 
-			equip_to_slot_if_possible(new /obj/item/storage/backpack/satchel/warfare, slot_back) 
+			equip_to_slot_if_possible(new /obj/item/clothing/suit/armor/goliathplate, slot_in_backpack)
+			equip_to_slot_if_possible(new /obj/item/clothing/head/helmet/gangerhelm, slot_in_backpack)
+			equip_to_slot_if_possible(new /obj/item/device/radio/headset/ert, slot_in_backpack)
+			equip_to_slot_if_possible(new /obj/item/storage/backpack/satchel/warfare, slot_back)
 			equip_to_slot_if_possible(new /obj/item/melee/classic_baton/trench_club, slot_in_backpack)
-			equip_to_slot_if_possible(new /obj/item/card/id/pilgrim/penitent/keeper, slot_wear_id)  
-			equip_to_slot_if_possible(new /obj/item/stack/thrones3/twenty, slot_in_backpack) 
+			equip_to_slot_if_possible(new /obj/item/card/id/pilgrim/penitent/keeper, slot_wear_id)
+			equip_to_slot_if_possible(new /obj/item/stack/thrones3/twenty, slot_in_backpack)
 			to_chat(U,"<span class='goodmood'>You're the muscle of the gang. Extract protection money and protect your fellow gang members.<b><font size=3>")
 			U.verbs -= list(/mob/living/carbon/human/proc/gangerclass,)
 			U.stat = CONSCIOUS
@@ -1079,36 +1079,79 @@ Pilgrim Fate System
 			U.add_skills(rand(5,6),rand(9,11),rand(2,4),rand(5,10),rand(2,4)) //melee, ranged, med, eng, surgery
 			equip_to_slot_if_possible(new /obj/item/clothing/under/rank/penitent, slot_w_uniform)
 			equip_to_slot_if_possible(new /obj/item/clothing/shoes/jackboots/pilgrim_boots, slot_shoes)
-			equip_to_slot_if_possible(new /obj/item/clothing/suit/storage/vest/tactical, slot_in_backpack) 
-			equip_to_slot_if_possible(new /obj/item/device/radio/headset/ert, slot_in_backpack) 
-			equip_to_slot_if_possible(new /obj/item/card/id/pilgrim/penitent/keeper, slot_wear_id) 
-			equip_to_slot_if_possible(new /obj/item/gun/projectile/automatic/machinepistol, slot_in_backpack) 
-			equip_to_slot_if_possible(new /obj/item/ammo_magazine/mc9mmt/machinepistol, slot_in_backpack) 
-			equip_to_slot_if_possible(new /obj/item/ammo_magazine/mc9mmt/machinepistol, slot_in_backpack)
+			equip_to_slot_if_possible(new /obj/item/clothing/suit/storage/vest/tactical, slot_in_backpack)
+			equip_to_slot_if_possible(new /obj/item/device/radio/headset/ert, slot_in_backpack)
+			equip_to_slot_if_possible(new /obj/item/card/id/pilgrim/penitent/keeper, slot_wear_id)
+			equip_to_slot_if_possible(new /obj/item/gun/projectile/automatic/machinepistol, slot_in_backpack)
+			equip_to_slot_if_possible(new /obj/item/ammo_magazine/smgmc9mm, slot_in_backpack)
+			equip_to_slot_if_possible(new /obj/item/ammo_magazine/smgmc9mm, slot_in_backpack)
 			to_chat(U, "<span class='goodmood'><b><font size=3>You're the assassin, the shadow of the gang. Take out any who oppose you.</font></b></span>")
 			U.verbs -= list(/mob/living/carbon/human/proc/gangerclass,)
 			U.stat = CONSCIOUS
 			U.sleeping = 0
 			to_chat(U, "<span class='goodmood'>+ You awaken from your slumber... +</span>\n")
+
+/datum/job/roguedoc
+	title = "Rogue Doc"
+	department_flag = PIL
+	social_class = SOCIAL_CLASS_MED
+	total_positions = 1
+	spawn_positions = 1
+	open_when_dead = 0
+	access = list(access_village)
+	announced = FALSE
+	latejoin_at_spawnpoints = TRUE
+
+	equip(var/mob/living/carbon/human/U)
+		U.warfare_faction = IMPERIUM
+
+		..()
+		U.warfare_language_shit(LANGUAGE_LOW_GOTHIC)
+		U.adjustStaminaLoss(-INFINITY)
+		U.set_trait(new/datum/trait/death_tolerant())
+		U.stat = UNCONSCIOUS
+		U.assign_random_quirk()
+		U.verbs += list(
+			/mob/living/carbon/human/proc/roguedoc,
+		)
+
+/mob/living/carbon/human/proc/roguedoc()
+	set name = "Select your class"
+	set category = "CHOOSE YOUR FATE"
+	set desc = "Choose your archtype."
+	if(!ishuman(src))
+		to_chat(src, "<span class='notice'>How tf are you seeing this, ping Wel Ard immediately</span>")
+		return
+	if(src.stat == DEAD)
+		to_chat(src, "<span class='notice'>You can't choose a class when you're dead.</span>")
+		return
+
+	var/mob/living/carbon/human/U = src
+	var/fates = list("Rogue Doc",)
+
+
+	var/classchoice = input("Choose your fate", "Available fates") as anything in fates
+	switch(classchoice)
 		if("Rogue Doc")
-			U.add_stats(rand(15,17), rand(12,15), rand(12,15), rand (15,15))
+			U.add_stats(rand(15,17), rand(12,15), rand(12,15), rand(15,15))
 			U.add_skills(rand(4,6),rand(4,6),rand(10,10),rand(9,10),rand(10,10)) //melee, ranged, med, eng, surgery
-			equip_to_slot_if_possible(new /obj/item/storage/backpack/satchel/warfare, slot_back) 
+			equip_to_slot_if_possible(new /obj/item/storage/backpack/satchel/warfare, slot_back)
 			equip_to_slot_if_possible(new /obj/item/clothing/under/rank/victorian, slot_w_uniform)
-			equip_to_slot_if_possible(new /obj/item/storage/belt/medical/full, slot_in_backpack)  
+			equip_to_slot_if_possible(new /obj/item/storage/belt/medical/full, slot_in_backpack)
 			equip_to_slot_if_possible(new /obj/item/clothing/shoes/jackboots/pilgrim_boots, slot_shoes)
-			equip_to_slot_if_possible(new /obj/item/device/radio/headset/ert, slot_in_backpack) 
-			equip_to_slot_if_possible(new /obj/item/card/id/pilgrim/penitent/keeper, slot_wear_id) 
-			equip_to_slot_if_possible(new /obj/item/stack/thrones3/twenty, slot_in_backpack) 
-			equip_to_slot_if_possible(new /obj/item/stack/thrones3/twenty, slot_in_backpack) 
-			equip_to_slot_if_possible(new /obj/item/clothing/glasses/eyepatch/hud/medical, slot_in_backpack) 
-			equip_to_slot_if_possible(new /obj/item/storage/pill_bottle/happy, slot_in_backpack) 
+			equip_to_slot_if_possible(new /obj/item/device/radio/headset/ert, slot_in_backpack)
+			equip_to_slot_if_possible(new /obj/item/card/id/pilgrim/penitent/keeper, slot_wear_id)
+			equip_to_slot_if_possible(new /obj/item/stack/thrones3/twenty, slot_in_backpack)
+			equip_to_slot_if_possible(new /obj/item/stack/thrones3/twenty, slot_in_backpack)
+			equip_to_slot_if_possible(new /obj/item/clothing/glasses/eyepatch/hud/medical, slot_in_backpack)
 			equip_to_slot_if_possible(new /obj/item/storage/pill_bottle/happy, slot_in_backpack)
-			to_chat(U,"<span class='goodmood'><b><font size=3>You're a step above the rest of the dealers when it comes to chemistry. Due to this, you were hired by a local gang after you caught their interest.</font></b></span>")
-			U.verbs -= list(/mob/living/carbon/human/proc/gangerclass,)
+			equip_to_slot_if_possible(new /obj/item/storage/pill_bottle/happy, slot_in_backpack)
+			to_chat(U,"<span class='goodmood'><b><font size=3>You're a step above the rest of the dealers when it comes to chemistry. Due to this, you were hired by a local gang after they caught your interest.</font></b></span>")
 			U.stat = CONSCIOUS
 			U.sleeping = 0
+			U.verbs -= list(/mob/living/carbon/human/proc/roguedoc,)
 			to_chat(U, "<span class='goodmood'>+ You awaken from your slumber... +</span>\n")
+
 /datum/job/bouncer
 	title = "Bouncer"
 	department_flag = PIL

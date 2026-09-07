@@ -41,4 +41,5 @@
 	/datum/job/pathfinder,
 	/datum/job/penitent,
 	/datum/job/citizen,
+	/datum/job/roguedoc
 	)

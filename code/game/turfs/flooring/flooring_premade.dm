@@ -605,8 +605,13 @@
 
 /turf/simulated/floor/stone/old2
 	name = "old stone floor"
-	icon = 'icons/turf/flooring/plating.dmi'
+	icon = 'icons/turf/flooring/stonefloor.dmi'
 	icon_state = "stonefloor2"
+	initial_flooring = null
+
+/turf/simulated/floor/stone/old2/New()
+	..()
+	icon_state = initial(icon_state)
 
 /turf/simulated/floor/stone/old3
 	name = "old stone floor"

@@ -1045,3 +1045,5 @@ Template:
 
 /obj/effect/landmark/ert
 	name = "ert"
+/obj/effect/landmark/start/village/roguedoc
+	name = "Rogue Doc"
