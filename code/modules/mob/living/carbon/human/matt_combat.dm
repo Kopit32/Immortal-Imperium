@@ -3,7 +3,7 @@
 /mob/living/carbon/human/proc/handle_combat_mode()//Makes it so that you can't regain stamina in combat mode.
 	if(combat_mode)
 		if(staminaloss < (staminaexhaust/1))
-			adjustStaminaLoss(-1) 
+			adjustStaminaLoss(-1)
 
 /mob/living/carbon/human/proc/attempt_dodge()//Handle parry is an object proc and it's, its own thing.
 	var/dodge_modifier = 0
@@ -83,3 +83,4 @@
 		usr << 'sound/effects/ui_toggle.ogg'
 		C.combat_mode = TRUE
 		C.combat_icon.icon_state = "combat1"
+	SEND_SIGNAL(C, COMSIG_MOB_COMBAT_TOGGLED, C.combat_mode)
